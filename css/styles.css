@@ -1,17 +1,25 @@
+body {
+    width : 960px;
+    margin : auto;
+
+}
 nav {
     background-color: rgb(68, 65, 65);
     
 
 }
 #nav {
-
-    padding-bottom: 5px;
+    left: 10px;
+    padding-bottom: 10px;
 }
 ul {
-    display:table-header-group
+    display:table-header-group;
     font-family: Arial, Helvetica, sans-serif;
     font-size : 20px;
     font-weight: bold;
+} 
+li {
+    float: left;
 }
 #img {
     padding-block: 10px;
